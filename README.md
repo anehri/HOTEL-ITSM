@@ -1435,18 +1435,12 @@ THEN
 
 **This is the highest-value work a Tier 2 CSA does:**
 
-Most ServiceNow users respond to tickets. A Tier 2 CSA identifies patterns and 
-eliminates entire categories of future tickets. This work is what gets you from 
-$70k (Tier 1) to $100k+ (Tier 2):
 
 - **HOTL-PRB-001 (DB Lock):** Fix saves $20k/year in revenue protection. Anas's 10-hour implementation = $2,000/hr business value.
 - **HOTL-PRB-002 (Charging):** Fix prevents guest experience degradation and reduces support tickets.
 - **HOTL-PRB-003 (WiFi):** Fix improves guest satisfaction (preventing negative reviews).
 
-Hotels notice this and value this. This is the work that leads to:
-- Senior CSA promotions ($120k+)
-- Consulting roles (higher margin, higher pay)
-- Vendor management roles (Tier 3+)
+
 
 ---
 
@@ -1777,36 +1771,6 @@ to scalable IT operations:**
 
 ---
 
-## Interview Narrative — Senior CSA System Architecture Focus
-
-### The Narrative (90-second version)
-
-> *"I designed and implemented a ServiceNow ITSM platform for a boutique hotel 
-> where IT incidents cascade across 8+ revenue centers — reservation systems, 
-> POS, spa booking, valet, concierge.*
->
-> *The core challenge: When the reservation system fails during Friday evening 
-> check-in, how do the spa, valet, and front desk all find out within 30 seconds 
-> so they can coordinate guest service recovery?*
->
-> *I architected a solution using custom incident fields (guest impact count, 
-> revenue impact, affected departments) + automated business rules + multi-department 
-> group routing workflows. Now when a guest-facing incident is created:*
->
-> *- Priority is auto-calculated based on guest count + revenue impact*
-> *- Business rules fire within 30 seconds to notify all affected departments*
-> *- Multi-department notification log creates audit trail*
-> *- System auto-calculates revenue impact based on incident duration*
->
-> *That's not Tier 1 support. That's platform architecture that has direct business impact.*
->
-> *During our testing, a reservation system incident (12 minutes) would have cost 
-> $1,200 in revenue loss. My system caught it in 45 seconds and had all departments 
-> coordinated within 60 seconds. That proactive communication prevented guest escalation.*
->
-> *This is the work that justifies Tier 2 compensation: designing systems that 
-> multiply the value of incident response, not just responding to incidents faster.*"
-
 ---
 
 ## Summary of Tier 2 CSA Skills Demonstrated
@@ -1826,31 +1790,6 @@ to scalable IT operations:**
 
 ---
 
-## Next Steps for Portfolio Development
-
-1. **GitHub Repository:**
-   - Architecture diagrams (incident data flow, multi-department notification cascade)
-   - Configuration runbook (step-by-step implementation guide)
-   - Business rule & workflow export (.xml files from ServiceNow)
-   - Integration specification (API endpoints, data mapping)
-   - Performance metrics (response times, notification latency)
-
-2. **Video Demonstration (5-7 minutes):**
-   - Anas creates incident with guest-facing impact
-   - Shows business rules fire, priority escalate
-   - Shows email notification sent to 4+ departments within 45 seconds
-   - Shows work notes timeline, incident resolution
-   - Voiceover explaining system design decisions
-
-3. **Interview Talking Points:**
-   - Focus on architecture, not incident response
-   - Lead with business problem ("How do 8 departments coordinate in <30 seconds?")
-   - Explain your solution (data model, business rules, workflows)
-   - Quantify impact ($20k problem prevention, guest satisfaction improvement)
-
-4. **Certification Alignment:**
-   - This work directly prepares for **ServiceNow System Administrator certification** (platform configuration, business rules, workflows, RBAC, reporting)
-   - Also foundation for **CIS-RC** (if you move into GRC specialization — compliance dashboards, audit logging, risk assessment workflows)
 
 ---
 
