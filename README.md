@@ -1869,4 +1869,4 @@ you can say: "I didn't just fix incidents. I designed an incident management
 system that automatically coordinates 8 departments within 45 seconds. That's 
 platform engineering."
 
-That's the work that commands $100k+ compensation in this field.
+
